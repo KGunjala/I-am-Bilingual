@@ -2,8 +2,6 @@
 from training_functions.model import Transformer, LabelSmoothedCE
 from training_functions.data_loader import SequenceLoader
 from utilities.utility_functions import *
-
-
 import time
 import torch.backends.cudnn as cudnn
 import torch.optim
